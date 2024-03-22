@@ -1,0 +1,96 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Loan__c</name>
+    <label>Loan</label>
+    <pluralLabel>Loans</pluralLabel>
+    <nameField>
+        <label>Loan Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <fields>
+        <fullName>Identification__c</fullName>
+        <label>Identification</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Proof_of_Income__c</fullName>
+        <label>Proof of Income</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Credit_History__c</fullName>
+        <label>Credit History</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Employment_Details__c</fullName>
+        <label>Employment Details</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Financial_History__c</fullName>
+        <label>Financial History</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Loan_Amount__c</fullName>
+        <label>Loan Amount</label>
+        <type>Currency</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Max_Loan_Amount__c</fullName>
+        <label>Maximum Loan Amount</label>
+        <type>Currency</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Interest_Rate__c</fullName>
+        <label>Interest Rate</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Min_Interest_Rate__c</fullName>
+        <label>Minimum Interest Rate</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Repayment_Period__c</fullName>
+        <label>Repayment Period</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Min_Repayment_Period__c</fullName>
+        <label>Minimum Repayment Period</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Rejection_Reason__c</fullName>
+        <label>Rejection Reason</label>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Loan_Agreement__c</fullName>
+        <label>Loan Agreement</label>
+        <type>LongTextArea</type>
+        <required>true</required>
+    </fields>
+    <!-- Add more fields as needed -->
+</CustomObject>
